@@ -23,3 +23,9 @@ REST === RESTfull
  <strong>Accept:</strong> application/<strong>xml</strong>
 
  <img src='./img/httpStatus.png'>
+
+<hr>
+
+<h2>SESSÃO #02</h2>
+
+Vamos utilizar o ambiente virtual VENV
