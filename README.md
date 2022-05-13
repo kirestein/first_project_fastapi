@@ -29,3 +29,7 @@ REST === RESTfull
 <h2>SESSÃO #02</h2>
 
 Vamos utilizar o ambiente virtual VENV
+python3.10 -m venv <nomeDoDiretorio>
+
+source <nomeDoDiretorio>/bin/activate (Este comando ativa o venv)
+
