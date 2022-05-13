@@ -3,7 +3,7 @@
 
 REST === RESTfull
 
-<h2><strong>C</strong></h2> => Create
-<h2><strong>R</strong></h2> => Retrive(Read)
-<h2><strong>U</strong></h2> => Update
-<h2><strong>D</strong></h2> => Delete
+<h2><strong>C</strong></h2> => Create -> HTTP PUT
+<h2><strong>R</strong></h2> => Retrive(Read) -> HTTP GET (posso pegar toda a coleção ou apenas um individual)
+<h2><strong>U</strong></h2> => Update -> HTTP POST
+<h2><strong>D</strong></h2> => Delete -> HTTP DELETE
