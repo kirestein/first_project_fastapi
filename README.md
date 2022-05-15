@@ -3,13 +3,13 @@
 
 REST === RESTfull
 
-<h2><strong>C</strong></h2> => Create -> <strong>HTTP PUT</strong>
-<h2><strong>R</strong></h2> => Retrive(Read) -> <strong>HTTP GET</strong> (posso pegar toda a coleção ou apenas um individual)
-<h2><strong>U</strong></h2> => Update -> <strong>HTTP POST</strong>
-<h2><strong>D</strong></h2> => Delete -> <strong>HTTP DELETE</strong>
-
+<h2><strong>C</strong> => Create -> <strong>HTTP PUT</strong></h2>
+<h2><strong>R</strong> => Retrive(Read) -> <strong>HTTP GET</strong> (posso pegar toda a coleção ou apenas um individual)</h2>
+<h2><strong>U</strong> => Update -> <strong>HTTP POST</strong></h2>
+<h2><strong>D</strong> => Delete -> <strong>HTTP DELETE</strong></h2>
+<br>
 <h2 syle='color:darkred;font-size:32'><strong>!!! HTTP É STATELESS !!!</strong></h2>
-
+<br>
 <h2>Cabeçalho da request - ACCEPT</h2>
 
  <strong>Accept:</strong> application/<strong>xml</strong>
@@ -33,3 +33,9 @@ python3.10 -m venv <nomeDoDiretorio>
 
 source <nomeDoDiretorio>/bin/activate (Este comando ativa o venv)
 
+pip3 freeze > requirement.txt gera um arquivo com todas as dependências que estamos utilizando em nosso projeto
+
+<strong>GUNICORN</strong>
+
+pip3 install gunicorn
+gunicorn main:app -w 4 -k uvicorn.workers.UvicornWorker -> o gunicorn é um servidor mais parrudo
